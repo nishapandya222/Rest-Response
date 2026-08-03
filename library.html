@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Monthly Research | Comfort Crochet Research</title>
+<title>Crochet Library | Comfort Crochet Research</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
@@ -70,56 +70,53 @@ header h1{
 }
 
 header p{
-    max-width:750px;
+    max-width:700px;
     margin:auto;
     line-height:1.8;
     color:#555;
 }
 
-/* Paper Cards */
+/* Cards */
 
-.container{
+.library{
     width:85%;
-    max-width:950px;
-    margin:40px auto 70px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    padding-bottom:60px;
 }
 
-.paper{
+.card{
     background:white;
     border-radius:18px;
     padding:30px;
-    margin-bottom:25px;
     box-shadow:0 8px 18px rgba(0,0,0,.08);
 }
 
-.paper h2{
+.card h2{
     color:#4F6F52;
-    font-family:'Poppins',sans-serif;
-    margin-bottom:10px;
-}
-
-.date{
-    color:#777;
-    font-size:.95rem;
     margin-bottom:15px;
+    font-family:'Poppins',sans-serif;
 }
 
-.paper p{
-    color:#555;
+.card p{
     line-height:1.8;
+    margin-bottom:20px;
+    color:#555;
 }
 
-.button{
+.card a{
     display:inline-block;
-    margin-top:20px;
+    text-decoration:none;
     background:#4F6F52;
     color:white;
-    text-decoration:none;
-    padding:12px 24px;
+    padding:10px 20px;
     border-radius:25px;
+    transition:.3s;
 }
 
-.button:hover{
+.card a:hover{
     background:#739072;
 }
 
@@ -130,6 +127,7 @@ footer{
     color:white;
     text-align:center;
     padding:25px;
+    margin-top:40px;
 }
 
 </style>
@@ -139,13 +137,14 @@ footer{
 
 <nav>
 
-<div class="logo">Comfort Crochet Research</div>
+<div class="logo">
+Comfort Crochet Research
+</div>
 
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="library.html">Crochet Library</a></li>
-<li><a href="monthly.html">Monthly Research</a></li>
 <li><a href="contact.html">Contact</a></li>
 </ul>
 
@@ -153,49 +152,63 @@ footer{
 
 <header>
 
-<h1>Monthly Research Updates</h1>
+<h1>Crochet Library</h1>
 
 <p>
-This page features monthly research papers, literature reviews, and project updates related to crochet, creativity, and teen mental health. As the research progresses, new findings and summaries will be published here.
+This library contains beginner-friendly crochet resources, tutorials, and patterns. Learning a creative skill like crochet may encourage relaxation, mindfulness, and emotional well-being while making handmade comfort items.
 </p>
 
 </header>
 
-<section class="container">
+<section class="library">
 
-<div class="paper">
-
-<h2>August 2026 Research Update</h2>
-
-<div class="date">
-Published: August 2026
-</div>
+<div class="card">
+<h2>🧶 Beginner Basics</h2>
 
 <p>
-This month's update focuses on planning the research study, reviewing existing literature on creative hobbies and mental health, and preparing survey materials for future data collection.
+Learn the essential stitches, holding your hook, reading patterns, and other beginner techniques.
 </p>
 
-<a href="#" class="button">Read Paper</a>
+<a href="#">Coming Soon</a>
 
 </div>
 
-<div class="paper">
+<div class="card">
 
-<h2>Coming Soon</h2>
-
-<div class="date">
-September 2026
-</div>
+<h2>🩷 Easy Comfort Projects</h2>
 
 <p>
-Future monthly research updates will be posted here as the project continues.
+Simple projects such as hearts, plushies, flowers, and stress balls that are relaxing to make.
 </p>
+
+<a href="#">Coming Soon</a>
+
+</div>
+
+<div class="card">
+
+<h2>📚 Helpful Tutorials</h2>
+
+<p>
+A collection of trusted video tutorials and guides for crocheters of all experience levels.
+</p>
+
+<a href="#">Coming Soon</a>
+
+</div>
+
+<div class="card">
+
+<h2>🌸 Mindful Crocheting</h2>
+
+<p>
+Discover how repetitive crafting and creative hobbies may support relaxation and emotional wellness.
+</p>
+
+<a href="#">Coming Soon</a>
 
 </div>
 
 </section>
 
 <footer>
-
-</body>
-</html>
