@@ -18,31 +18,23 @@
 
 body{
     font-family:'Inter',sans-serif;
-    background:#F8FAF6;
+    background:#F7F5FC;
     color:#333;
 }
 
 /* Navigation */
 
 nav{
-    background:#4F6F52;
+    background:#6B5B95;
     padding:18px 8%;
     display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    color:white;
-    font-size:1.5rem;
-    font-family:'Poppins',sans-serif;
-    font-weight:700;
+    justify-content:center;
 }
 
 nav ul{
     list-style:none;
     display:flex;
-    gap:30px;
+    gap:40px;
 }
 
 nav a{
@@ -52,18 +44,18 @@ nav a{
 }
 
 nav a:hover{
-    opacity:.8;
+    color:#E6DFF5;
 }
 
 /* Header */
 
 header{
     text-align:center;
-    padding:70px 20px 40px;
+    padding:70px 20px 30px;
 }
 
 header h1{
-    color:#4F6F52;
+    color:#6B5B95;
     font-family:'Poppins',sans-serif;
     font-size:2.8rem;
     margin-bottom:15px;
@@ -76,76 +68,66 @@ header p{
     color:#555;
 }
 
-/* Cards */
+/* Library */
 
 .library{
-    width:85%;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
-    padding-bottom:60px;
+    width:75%;
+    max-width:700px;
+    margin:50px auto 80px;
 }
 
-.card{
-    background:white;
-    border-radius:18px;
-    padding:30px;
-    box-shadow:0 8px 18px rgba(0,0,0,.08);
-}
-
-.card h2{
-    color:#4F6F52;
-    margin-bottom:15px;
+.library h2{
+    color:#6B5B95;
+    margin-bottom:25px;
     font-family:'Poppins',sans-serif;
 }
 
-.card p{
-    line-height:1.8;
-    margin-bottom:20px;
-    color:#555;
+.pattern-list{
+    list-style:none;
 }
 
-.card a{
-    display:inline-block;
+.pattern-list li{
+    background:white;
+    margin-bottom:18px;
+    border-radius:15px;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
+.pattern-list a{
+    display:block;
+    padding:18px 25px;
     text-decoration:none;
-    background:#4F6F52;
-    color:white;
-    padding:10px 20px;
-    border-radius:25px;
+    color:#333;
+    font-size:1.1rem;
     transition:.3s;
 }
 
-.card a:hover{
-    background:#739072;
+.pattern-list a:hover{
+    background:#E6DFF5;
+    color:#6B5B95;
 }
 
 /* Footer */
 
 footer{
-    background:#4F6F52;
+    background:#6B5B95;
     color:white;
     text-align:center;
     padding:25px;
-    margin-top:40px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <nav>
 
-<div class="logo">
-Comfort Crochet Research
-</div>
-
 <ul>
 <li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="library.html">Crochet Library</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="monthly.html">Monthly Updates</a></li>
+<li><a href="annual.html">Annual Research Papers</a></li>
 </ul>
 
 </nav>
@@ -155,59 +137,38 @@ Comfort Crochet Research
 <h1>Crochet Library</h1>
 
 <p>
-This library contains beginner-friendly crochet resources, tutorials, and patterns. Learning a creative skill like crochet may encourage relaxation, mindfulness, and emotional well-being while making handmade comfort items.
+The Crochet Library provides a collection of crochet patterns and educational resources. Each pattern includes recommended materials, hook size, instructions, and helpful images to support crocheters of all skill levels.
 </p>
 
 </header>
 
 <section class="library">
 
-<div class="card">
-<h2>🧶 Beginner Basics</h2>
+<h2>Available Patterns</h2>
 
-<p>
-Learn the essential stitches, holding your hook, reading patterns, and other beginner techniques.
-</p>
+<ul class="pattern-list">
 
-<a href="#">Coming Soon</a>
+<li>
+<a href="stressball.html">⚪ Stress Ball</a>
+</li>
 
-</div>
+<li>
+<a href="#">✨ Coming Soon</a>
+</li>
 
-<div class="card">
+<li>
+<a href="#">✨ Coming Soon</a>
+</li>
 
-<h2>🩷 Easy Comfort Projects</h2>
+<li>
+<a href="#">✨ Coming Soon</a>
+</li>
 
-<p>
-Simple projects such as hearts, plushies, flowers, and stress balls that are relaxing to make.
-</p>
+<li>
+<a href="#">✨ Coming Soon</a>
+</li>
 
-<a href="#">Coming Soon</a>
-
-</div>
-
-<div class="card">
-
-<h2>📚 Helpful Tutorials</h2>
-
-<p>
-A collection of trusted video tutorials and guides for crocheters of all experience levels.
-</p>
-
-<a href="#">Coming Soon</a>
-
-</div>
-
-<div class="card">
-
-<h2>🌸 Mindful Crocheting</h2>
-
-<p>
-Discover how repetitive crafting and creative hobbies may support relaxation and emotional wellness.
-</p>
-
-<a href="#">Coming Soon</a>
-
-</div>
+</ul>
 
 </section>
 
