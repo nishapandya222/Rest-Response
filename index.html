@@ -1,29 +1,214 @@
-<section class="library">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<h2>Browse Crochet Patterns</h2>
+<title>Comfort Crochet Research</title>
 
-<ul class="pattern-list">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
-<li><a href="stressball.html">⚪ Stress Ball</a></li>
+<style>
 
-<li><a href="plushie.html">🧸 Plushie</a></li>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-<li><a href="#">✨ Coming Soon</a></li>
+body{
+    font-family:'Inter',sans-serif;
+    background:#F7F5FC;
+    color:#333;
+}
 
-<li><a href="#">✨ Coming Soon</a></li>
+/* Navigation */
 
-<li><a href="#">✨ Coming Soon</a></li>
+nav{
+    background:#6B5B95;
+    padding:18px 8%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
-<li><a href="#">✨ Coming Soon</a></li>
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:40px;
+}
 
-<li><a href="#">✨ Coming Soon</a></li>
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:.3s;
+}
 
-<li><a href="#">✨ Coming Soon</a></li>
+nav a:hover{
+    color:#E6DFF5;
+}
 
-<li><a href="#">✨ Coming Soon</a></li>
+/* Hero */
 
-<li><a href="#">✨ Coming Soon</a></li>
+.hero{
+    text-align:center;
+    padding:80px 20px 40px;
+}
+
+.hero h1{
+    font-family:'Poppins',sans-serif;
+    color:#6B5B95;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    color:#6B5B95;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.9;
+    color:#555;
+}
+
+/* Cards */
+
+.cards{
+    width:85%;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:35px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.card h3{
+    color:#6B5B95;
+    font-family:'Poppins',sans-serif;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.8;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.button{
+    display:inline-block;
+    background:#6B5B95;
+    color:white;
+    text-decoration:none;
+    padding:12px 28px;
+    border-radius:25px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#8A79B8;
+}
+
+/* Footer */
+
+footer{
+    background:#6B5B95;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="library.html">Crochet Library</a></li>
+
+<li><a href="monthly.html">Monthly Updates</a></li>
+
+<li><a href="annual.html">Annual Research Papers</a></li>
 
 </ul>
 
+</nav>
+
+<section class="hero">
+
+<h1>Comfort Crochet Research</h1>
+
+<h2>About the Project</h2>
+
+<p>
+
+Comfort Crochet Research is an independent research initiative exploring wheather learning to crochet can reduce stress and anxiety. Participants will complete a survey befire and after a guided crochet activity, and the results will be compared to evaluate any chnages in their emotional well-being.
+
+</p>
+
 </section>
+
+<section class="cards">
+
+<div class="card">
+
+<h3>📚 Crochet Library</h3>
+
+<p>
+
+Explore beginner-friendly crochet resources, patterns, and tutorials designed to support creativity and relaxation.
+
+</p>
+
+<a href="library.html" class="button">View Library</a>
+
+</div>
+
+<div class="card">
+
+<h3>📅 Monthly Updates</h3>
+
+<p>
+
+Follow the progress of the research project through monthly updates, milestones, and ongoing developments.
+
+</p>
+
+<a href="monthly.html" class="button">View Updates</a>
+
+</div>
+
+<div class="card">
+
+<h3>📄 Annual Research Papers</h3>
+
+<p>
+
+Read annual summaries and completed research papers documenting the project's progress and findings.
+
+</p>
+
+<a href="annual.html" class="button">View Papers</a>
+
+</div>
+
+</section>
+
+<footer>
