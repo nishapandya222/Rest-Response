@@ -1,19 +1,28 @@
-# 🧶 Comfort Crochet Research
-**By Nisha Pandya**
-## About
-This project investigates whether making and receiving handmade crocheted comfort items can help reduce stress and anxiety while improving emotional well-being in teenagers.
+# Rest Response
+
+Rest Response is a student-led research project focused on exploring how everyday factors such as sleep and stress relate to the physical well-being of high school students.
 
 ## Research Question
-Can crocheting handmade comfort items positively impact teen mental health?
 
-## Method
-- Anonymous survey before crocheting
-- Participants crochet a comfort item
-- Anonymous survey after crocheting
-- Compare the results
+**What is the relationship between sleep habits, stress levels, and physical well-being among high school students?**
 
-## Goal
-To explore whether crochet can be used as a simple, accessible tool to support emotional well-being in teens.
+## About the Project
 
-## Status
-🟡 Planning and recruiting participants.
+Rest Response combines research, anonymous data collection, analysis, and health education to better understand patterns in student health and physiology.
+
+Research findings and annual research papers will be added as the project develops.
+
+## Website Sections
+
+* Home
+* About Me
+* Annual Research
+* Findings
+
+## Current Study
+
+**2026–2027:** Sleep, Stress, and Physical Well-Being Among High School Students
+
+## Created By
+
+Nisha Pandya
