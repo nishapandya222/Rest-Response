@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7fbfc;
+  color: #243238;
+  line-height: 1.7;
+}
+
+
+/* NAVIGATION */
+
+nav {
+  background-color: #ffffff;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9e8eb;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #397c87;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #344b52;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #4b9aa5;
+}
+
+
+/* HOME HERO */
+
+.hero {
+  text-align: center;
+  padding: 110px 20px;
+  background: linear-gradient(
+    135deg,
+    #dff4f4,
+    #edf7fa,
+    #e8f0ff
+  );
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+  color: #2d6872;
+}
+
+.subtitle {
+  font-size: 21px;
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/* PAGE HEADERS */
+
+.page-header {
+  text-align: center;
+  padding: 70px 20px;
+  background-color: #e5f4f5;
+}
+
+.page-header h1 {
+  font-size: 42px;
+  color: #2d6872;
+  margin-bottom: 10px;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+  width: 85%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 35px;
+  margin-bottom: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.card h2 {
+  color: #397c87;
+}
+
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #365f68;
+  padding: 20px;
+}
+
+
+/* FINDINGS */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background-color: #e9f6f7;
+  padding: 30px;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.stat-card h3 {
+  color: #397c87;
+  margin-bottom: 8px;
+}
+
+.stat-card p {
+  font-size: 19px;
+}
+
+
+/* BUTTONS */
+
+button {
+  background-color: #4b9aa5;
+  color: white;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button:disabled {
+  opacity: 0.65;
+}
+
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #dceff1;
+  margin-top: 60px;
+}
+
+
+/* PHONE / SMALL SCREEN */
+
+@media (max-width: 700px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    width: 92%;
+  }
+}
